@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5bf42"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TELEPHONY"/>
+
+
+    <TextView
+        android:id="@+id/secT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angelica(0930-102-6134)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="110dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="110dp"/>
+
+    <EditText
+        android:id="@+id/msgT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="120dp"/>
+
+    <Button
+        android:id="@+id/bSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="btnSend"
+        android:text="Send SMS"
+        android:layout_marginTop="160dp"/>
+
+
+
+    <TextView
+        android:id="@+id/sTtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eduardo(0938-289-5406)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="205dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="220dp"/>
+
+    <EditText
+        android:id="@+id/mTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="220dp"/>
+
+    <Button
+        android:id="@+id/btnS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="bSend"
+        android:text="Send SMS"
+        android:layout_marginTop="260dp"/>
+
+
+
+    <TextView
+        android:id="@+id/secText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John lester(0920-710-5953)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="315dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="320dp"/>
+
+    <EditText
+        android:id="@+id/msgText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="320dp"/>
+
+    <Button
+        android:id="@+id/btnSEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="btSend"
+        android:text="Send SMS"
+        android:layout_marginTop="360dp"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grace(09300887263)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="420dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="430dp"/>
+
+    <EditText
+        android:id="@+id/msTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="430dp"/>
+
+    <Button
+        android:id="@+id/bnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="bnSend"
+        android:text="Send SMS"
+        android:layout_marginTop="470dp"/>
+
+
+
+    <TextView
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jane pauline(0938-227-5564)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="520dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="530dp"/>
+
+    <EditText
+        android:id="@+id/msgTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="530dp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="Send"
+        android:text="Send SMS"
+        android:layout_marginTop="570dp"/>
+
+   <EditText
+       android:id="@+id/idNumtxt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter Phone Number"
+       android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/idbtnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCall"
+        android:text="Call"
+        android:layout_marginTop="60dp"/>
+        android:gravity="center"/>
+
+
+</RelativeLayout>
